@@ -1,34 +1,42 @@
 import { EducationType, ExperienceType, SkillsType } from "./types";
 
+import {
+  AiOutlineGithub,
+  AiOutlineTwitter,
+  AiOutlineInstagram,
+  AiOutlineMail,
+} from "react-icons/ai";
+import { DiNpm } from "react-icons/di";
+
 export const socialMediaLinks = [
   {
     id: 1,
     label: "Github",
-    icon: "fa-brands fa-github",
+    icon: AiOutlineGithub,
     url: "https://www.github.com/aytacmalkoc",
   },
   {
     id: 2,
     label: "Npm",
-    icon: "fa-brands fa-npm",
+    icon: DiNpm,
     url: "https://www.npmjs.com/~aytacmalkoc",
   },
   {
     id: 3,
     label: "Twitter",
-    icon: "fa-brands fa-twitter",
+    icon: AiOutlineTwitter,
     url: "https://www.twitter.com/jrd_aytacmalkoc",
   },
   {
     id: 4,
     label: "Instagram",
-    icon: "fa-brands fa-instagram",
+    icon: AiOutlineInstagram,
     url: "https://www.instagram.com/aytacmalkoc35",
   },
   {
     id: 5,
     label: "Email",
-    icon: "fa-solid fa-envelope",
+    icon: AiOutlineMail,
     url: "mailto:aytacmalkoc@protonmail.com",
   },
 ];
