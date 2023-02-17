@@ -3,6 +3,7 @@ import type { AppProps } from "next/app";
 import Head from "next/head";
 import Layout from "@/components/layout";
 import { meta } from "@/constants";
+import { GoogleAnalytics } from "nextjs-google-analytics";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -27,6 +28,7 @@ export default function App({ Component, pageProps }: AppProps) {
           />
         ))}
       </Head>
+      <GoogleAnalytics trackPageViews />
       <Layout>
         <Component {...pageProps} />
       </Layout>
