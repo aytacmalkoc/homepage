@@ -30,10 +30,10 @@ npm run dev
 
 ## TODOS
 
-- [ ] Add Google Analytics.
 - [ ] Add repository and experience detail pages.
 - [ ] Add a 404 page.
 - [ ] Add a contact section.
+- [x] Add Google Analytics.
 - [x] Setting up purge css package.
 
 ## License
