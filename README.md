@@ -34,7 +34,7 @@ npm run dev
 - [ ] Add repository and experience detail pages.
 - [ ] Add a 404 page.
 - [ ] Add a contact section.
-- [ ] Setting up purge css package.
+- [x] Setting up purge css package.
 
 ## License
 
