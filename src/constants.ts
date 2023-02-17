@@ -2,8 +2,10 @@ import { MetaType } from "./types";
 
 export const meta: MetaType = {
   title: "Aytac Malkoc - Full Stack Developer",
-  description: "",
-  keywords: "",
+  description:
+    "İhtiyacınız olan kurumsal uygulamaları geliştiriyorum. Yeni nesil çözümler ile dinamik, etkileşimli, temiz ve güvenli uygulamalar ile markanızı internete yansıtıyorum.",
+  keywords:
+    "yazılım, websitesi, yazılım geliştirme, site yapımı, yazılım uzmanı, web geliştirici, software, software developer, full stack developer",
   robots: "index, all",
   favicon: [
     {
