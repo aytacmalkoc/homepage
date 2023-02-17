@@ -16,19 +16,19 @@ export default function EducationItem({
           </div>
         </div>
         <div className="col-lg-8 col-xl-9 wow fadeInUp">
-          <div className="experience-details">
-            <h4>{education.title}</h4>
-            <div className="d-flex align-items-center justify-content-between">
+          <div className="experience-details d-flex flex-column flex-lg-row align-items-lg-center justify-content-between">
+            <div>
+              <h4>{education.title}</h4>
               <p>{education.description}</p>
-              {education.file && (
-                <button
-                  className="btn btn-outline-dark"
-                  onClick={() => openFile(education.file?.url)}
-                >
-                  {education.file.title}
-                </button>
-              )}
             </div>
+            {education.file && (
+              <button
+                className="btn btn-outline-dark mt-3 mt-lg-0"
+                onClick={() => openFile(education.file?.url)}
+              >
+                {education.file.title}
+              </button>
+            )}
           </div>
         </div>
       </div>
