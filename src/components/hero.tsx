@@ -10,7 +10,7 @@ export default function Hero() {
       label: "User click the view resume button",
     });
 
-    openFile("/files/resume.pdf");
+    openFile("/files/resume_new.pdf");
   };
 
   return (
