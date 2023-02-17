@@ -26,7 +26,7 @@ export default function Footer() {
                 rel={"noreferrer"}
                 key={socialMedia.id}
               >
-                <i className={socialMedia.icon}></i>
+                <socialMedia.icon size={34} />
               </a>
             ))}
           </div>

@@ -1,6 +1,8 @@
 import { socialMediaLinks } from "@/data";
 import { openFile, scrollTo } from "@/helpers";
 
+import { AiOutlineArrowDown } from "react-icons/ai";
+
 export default function Hero() {
   return (
     <div className="vea-banner vea-banner-2">
@@ -24,12 +26,23 @@ export default function Hero() {
                     key={socialMedia.id}
                     rel={"noreferrer"}
                   >
-                    <i className={socialMedia.icon}></i>
+                    <socialMedia.icon
+                      size={28}
+                      style={{
+                        display: "inline-block",
+                        color: "#120",
+                        verticalAlign: "middle",
+                        marginTop: 0,
+                        marginBottom: 0,
+                        marginLeft: 10,
+                        marginRight: 10,
+                      }}
+                    />
                   </a>
                 ))}
                 <button
                   onClick={() => openFile("/files/resume.pdf")}
-                  className="social-link btn btn-outline-dark"
+                  className="social-link btn btn-outline-dark mt-lg-0 mt-3"
                 >
                   Download Resume
                 </button>
@@ -42,7 +55,7 @@ export default function Hero() {
         className="scroll-dwn d-none d-lg-flex justify-content-center align-items-center"
         onClick={() => scrollTo("top", window.innerHeight)}
       >
-        <i className="fa-solid fa-arrow-down fa-2x"></i>
+        <AiOutlineArrowDown size={26} />
       </div>
     </div>
   );

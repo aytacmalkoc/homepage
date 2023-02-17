@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { scrollTo } from "@/helpers";
+import { AiOutlineArrowUp } from "react-icons/ai";
 
 export default function Back2Top() {
   const [isVisible, setIsVisible] = useState(false);
@@ -20,7 +21,7 @@ export default function Back2Top() {
         display: isVisible ? "block" : "none",
       }}
     >
-      <i className="fa-solid fa-arrow-up"></i>
+      <AiOutlineArrowUp size={26} style={{ display: "inline-block" }} />
     </div>
   );
 }
