@@ -5,8 +5,8 @@ import { AiOutlineArrowDown } from "react-icons/ai";
 
 export default function Hero() {
   const handleViewResume = () => {
-    event("click_resume_button", {
-      category: "Resume",
+    event("click", {
+      category: "click",
       label: "User click the view resume button",
     });
 
