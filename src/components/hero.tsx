@@ -1,9 +1,18 @@
+import { event } from "nextjs-google-analytics";
 import { socialMediaLinks } from "@/data";
 import { openFile, scrollTo } from "@/helpers";
-
 import { AiOutlineArrowDown } from "react-icons/ai";
 
 export default function Hero() {
+  const handleViewResume = () => {
+    event("click_resume_button", {
+      category: "Resume",
+      label: "User click the view resume button",
+    });
+
+    openFile("/files/resume.pdf");
+  };
+
   return (
     <div className="vea-banner vea-banner-2">
       <div className="container">
@@ -41,10 +50,10 @@ export default function Hero() {
                   </a>
                 ))}
                 <button
-                  onClick={() => openFile("/files/resume.pdf")}
+                  onClick={handleViewResume}
                   className="social-link btn btn-outline-dark mt-lg-0 mt-3"
                 >
-                  Download Resume
+                  View Resume
                 </button>
               </div>
             </div>
