@@ -1,3 +1,4 @@
+import { event } from "nextjs-google-analytics";
 import { EducationType } from "@/types";
 import { openFile } from "@/helpers";
 
@@ -6,6 +7,14 @@ export default function EducationItem({
 }: {
   education: EducationType;
 }) {
+  const handleViewFile = (title: string | undefined) => {
+    event("click", {
+      category: "click",
+      label: `User click the ${title} button`,
+    });
+    openFile(education.file?.url);
+  };
+
   return (
     <div className="single-experience">
       <div className="row align">
@@ -24,7 +33,7 @@ export default function EducationItem({
             {education.file && (
               <button
                 className="btn btn-outline-dark mt-3 mt-lg-0"
-                onClick={() => openFile(education.file?.url)}
+                onClick={() => handleViewFile(education.file?.title)}
               >
                 {education.file.title}
               </button>
