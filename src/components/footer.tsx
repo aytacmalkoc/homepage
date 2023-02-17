@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="footer-about text-lg-center">
           <h5>
             <a
-              href="https://www.github.com/aytacmalkoc/aytacmalkoc.github.io"
+              href="https://www.github.com/aytacmalkoc/homepage"
               target={"_blank"}
               rel={"noreferrer"}
             >
