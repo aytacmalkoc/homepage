@@ -25,6 +25,7 @@
     "hex-to-rgb": "^1.0.1",
     "next": "13.1.6",
     "next-sitemap": "^3.1.52",
+    "nextjs-google-analytics": "^2.3.0",
     "octokit": "^2.0.14",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-preset-env": "^8.0.1",
