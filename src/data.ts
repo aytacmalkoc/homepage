@@ -31,7 +31,7 @@ export const socialMediaLinks = [
     id: 4,
     label: "Instagram",
     icon: AiOutlineInstagram,
-    url: "https://www.instagram.com/aytacmalkoc35",
+    url: "https://www.instagram.com/aytac.dev",
   },
   {
     id: 5,
@@ -45,6 +45,15 @@ export const experiences: ExperienceType[] = [
   {
     id: 1,
     title: "Full Stack Developer",
+    slug: "attelia-oral-and-dental-health-center",
+    company: "Attelia",
+    duration: "March 2023 - Present",
+    description:
+      "I take part in the development and maintenance of company websites and applications and the development of new projects.",
+  },
+  {
+    id: 2,
+    title: "Full Stack Developer",
     slug: "upperearth-digital-full-stack-developer",
     company: "upperearth digital",
     duration: "August 2021 - Dec 2021",
@@ -52,7 +61,7 @@ export const experiences: ExperienceType[] = [
       "I have carried out many corporate works in the design agency that I am a partner of. During this time, I learned a lot about company management and customer relations.",
   },
   {
-    id: 2,
+    id: 3,
     title: "Developer Intern",
     slug: "fikir-isler-developer-intern",
     company: "Fikir İşler",
