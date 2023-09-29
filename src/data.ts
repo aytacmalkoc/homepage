@@ -50,6 +50,7 @@ export const experiences: ExperienceType[] = [
     duration: "March 2023 - Present",
     description:
       "I take part in the development and maintenance of company websites and applications and the development of new projects.",
+    logo: "https://atteliadental.com/uploads/files/shares/content/att-logo.svg"
   },
   {
     id: 2,
@@ -68,6 +69,7 @@ export const experiences: ExperienceType[] = [
     duration: "Sep 2018 - June 2019",
     description:
       "During my internship, I took part in many projects. I provided support for frontend design and backend management. I developed myself in human relations.",
+    logo: "https://www.fikirisler.com/wp-content/uploads/2020/01/fikirisler-logo.svg"
   },
 ];
 

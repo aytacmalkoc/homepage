@@ -14,7 +14,10 @@ export default function Experiences() {
               <div className="row">
                 <div className="col-lg-4 col-xl-3 wow fadeInLeft">
                   <div className="experience-duration">
-                    <h1 className="fs-3">{experience.company}</h1>
+                    {experience.logo ?
+                      <img src={experience.logo} alt={`${experience.company}'s logo`} width={'50%'} /> :
+                      <h1 className="fs-3">{experience.company}</h1>
+                    }
                     <h4 className="text-black-50 fs-5">
                       {experience.duration}
                     </h4>

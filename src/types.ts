@@ -74,4 +74,5 @@ export type ExperienceType = {
   company: string;
   duration: string;
   description: string;
+  logo?: string;
 };
