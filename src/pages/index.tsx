@@ -6,7 +6,7 @@ import Hero from "@/components/hero";
 import Repositories from "@/components/repositories";
 import Skills from "@/components/skills";
 import Educations from "@/components/educations";
-import Topbar from "@/components/topbar";
+// import Topbar from "@/components/topbar";
 import Experiences from "@/components/experiences";
 
 export async function getStaticProps() {
@@ -24,7 +24,7 @@ export default function Home({
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
     <>
-      <Topbar />
+      {/* <Topbar /> */}
       <Hero />
       <Repositories repositories={repositories} />
       <Experiences />
