@@ -56,7 +56,7 @@ export const experiences: ExperienceType[] = [
     title: "Full Stack Developer",
     slug: "upperearth-digital-full-stack-developer",
     company: "upperearth digital",
-    duration: "August 2021 - Dec 2021",
+    duration: "August 2021 - Dec 2022",
     description:
       "I have carried out many corporate works in the design agency that I am a partner of. During this time, I learned a lot about company management and customer relations.",
   },
