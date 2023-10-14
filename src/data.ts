@@ -50,7 +50,41 @@ export const experiences: ExperienceType[] = [
     duration: "March 2023 - Present",
     description:
       "I take part in the development and maintenance of company websites and applications and the development of new projects.",
-    logo: "https://atteliadental.com/uploads/files/shares/content/att-logo.svg"
+    logo: "https://atteliadental.com/uploads/files/shares/content/att-logo.svg",
+    color: {
+      background: "#E4002B",
+      text: "#ffffff",
+    },
+    languages: [
+      {
+        id: 1,
+        name: "HTML",
+      },
+      {
+        id: 2,
+        name: "CSS",
+      },
+      {
+        id: 3,
+        name: "JavaScript",
+      },
+      {
+        id: 4,
+        name: "PHP",
+      },
+      {
+        id: 5,
+        name: "Laravel",
+      },
+      {
+        id: 6,
+        name: "MySQL",
+      },
+      {
+        id: 7,
+        name: "WordPress",
+      },
+    ],
   },
   {
     id: 2,
@@ -60,6 +94,40 @@ export const experiences: ExperienceType[] = [
     duration: "August 2021 - Dec 2022",
     description:
       "I have carried out many corporate works in the design agency that I am a partner of. During this time, I learned a lot about company management and customer relations.",
+    languages: [
+      {
+        id: 1,
+        name: "HTML",
+      },
+      {
+        id: 2,
+        name: "CSS",
+      },
+      {
+        id: 3,
+        name: "JavaScript",
+      },
+      {
+        id: 4,
+        name: "React JS",
+      },
+      {
+        id: 5,
+        name: "Next JS",
+      },
+      {
+        id: 6,
+        name: "React Native",
+      },
+      {
+        id: 7,
+        name: "Laravel",
+      },
+      {
+        id: 8,
+        name: "MySQL",
+      },
+    ],
   },
   {
     id: 3,
@@ -69,7 +137,37 @@ export const experiences: ExperienceType[] = [
     duration: "Sep 2018 - June 2019",
     description:
       "During my internship, I took part in many projects. I provided support for frontend design and backend management. I developed myself in human relations.",
-    logo: "https://www.fikirisler.com/wp-content/uploads/2020/01/fikirisler-logo.svg"
+    logo: "https://www.fikirisler.com/wp-content/uploads/2020/01/fikirisler-logo.svg",
+    color: {
+      text: "#112200",
+      background: "#f9d401",
+    },
+    languages: [
+      {
+        id: 1,
+        name: "HTML",
+      },
+      {
+        id: 2,
+        name: "CSS",
+      },
+      {
+        id: 3,
+        name: "JavaScript",
+      },
+      {
+        id: 4,
+        name: "WordPress",
+      },
+      {
+        id: 5,
+        name: "CodeIgniter",
+      },
+      {
+        id: 6,
+        name: "MySQL",
+      },
+    ],
   },
 ];
 

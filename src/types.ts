@@ -75,4 +75,14 @@ export type ExperienceType = {
   duration: string;
   description: string;
   logo?: string;
+  color?: {
+    text: string;
+    background: string;
+  };
+  languages?: LanguageType[];
+};
+
+export type LanguageType = {
+  id: number;
+  name: string;
 };

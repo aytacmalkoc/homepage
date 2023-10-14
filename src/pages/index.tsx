@@ -26,9 +26,9 @@ export default function Home({
     <>
       {/* <Topbar /> */}
       <Hero />
-      <Repositories repositories={repositories} />
       <Experiences />
       <Educations />
+      <Repositories repositories={repositories} />
       <Skills />
     </>
   );
