@@ -32,8 +32,8 @@ export default function App({ Component, pageProps }: AppProps) {
       </Head>
       <Layout>
         <Component {...pageProps} />
-        <SpeedInsights />
       </Layout>
+      <SpeedInsights />
       <GoogleAnalytics strategy="lazyOnload" trackPageViews />
       <Analytics />
     </>
