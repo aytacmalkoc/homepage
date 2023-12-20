@@ -1,5 +1,6 @@
 import { InferGetStaticPropsType } from "next";
 import { fetchRepositories } from "@/utils/octokit";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 // components
 import Hero from "@/components/hero";
@@ -30,6 +31,7 @@ export default function Home({
       <Educations />
       <Repositories repositories={repositories} />
       <Skills />
+      <SpeedInsights />
     </>
   );
 }

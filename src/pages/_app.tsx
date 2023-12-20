@@ -5,7 +5,6 @@ import Layout from "@/components/layout";
 import { meta } from "@/constants";
 import { GoogleAnalytics } from "nextjs-google-analytics";
 import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -33,7 +32,6 @@ export default function App({ Component, pageProps }: AppProps) {
       <Layout>
         <Component {...pageProps} />
       </Layout>
-      <SpeedInsights />
       <GoogleAnalytics strategy="lazyOnload" trackPageViews />
       <Analytics />
     </>
