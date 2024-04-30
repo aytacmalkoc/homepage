@@ -10,7 +10,7 @@ export default function Hero() {
       label: "User click the view resume button",
     });
 
-    openFile("/files/resume.pdf");
+    openFile("/files/aytacmalkoc-cv.pdf");
   };
 
   return (
@@ -53,7 +53,7 @@ export default function Hero() {
                   onClick={handleViewResume}
                   className="social-link btn btn-outline-dark mt-lg-0 mt-3"
                 >
-                  View Resume
+                  Download Europass CV
                 </button>
               </div>
             </div>
