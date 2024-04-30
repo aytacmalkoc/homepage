@@ -7,6 +7,7 @@ import {
   AiOutlineMail,
 } from "react-icons/ai";
 import { DiNpm } from "react-icons/di";
+import { BsTwitterX } from "react-icons/bs";
 
 export const socialMediaLinks = [
   {
@@ -24,8 +25,8 @@ export const socialMediaLinks = [
   {
     id: 3,
     label: "Twitter",
-    icon: AiOutlineTwitter,
-    url: "https://www.twitter.com/jrd_aytacmalkoc",
+    icon: BsTwitterX,
+    url: "https://www.x.com/jrd_aytacmalkoc",
   },
   {
     id: 4,
