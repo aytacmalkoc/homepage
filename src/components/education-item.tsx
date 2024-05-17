@@ -1,19 +1,19 @@
-import { event } from "nextjs-google-analytics";
+// import { event } from "nextjs-google-analytics";
 import { EducationType } from "@/types";
-import { openFile } from "@/helpers";
+// import { openFile } from "@/helpers";
 
 export default function EducationItem({
   education,
 }: {
   education: EducationType;
 }) {
-  const handleViewFile = (title: string | undefined) => {
-    event("click", {
-      category: "click",
-      label: `User click the ${title} button`,
-    });
-    openFile(education.file?.url);
-  };
+  // const handleViewFile = (title: string | undefined) => {
+  //   event("click", {
+  //     category: "click",
+  //     label: `User click the ${title} button`,
+  //   });
+  //   openFile(education.file?.url);
+  // };
 
   return (
     <div className="single-experience">
@@ -30,14 +30,14 @@ export default function EducationItem({
               <h4>{education.title}</h4>
               <p>{education.description}</p>
             </div>
-            {education.file && (
+            {/* {education.file && (
               <button
                 className="btn btn-outline-dark mt-3 mt-lg-0"
                 onClick={() => handleViewFile(education.file?.title)}
               >
                 {education.file.title}
               </button>
-            )}
+            )} */}
           </div>
         </div>
       </div>
