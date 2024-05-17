@@ -1,17 +1,17 @@
-import { event } from "nextjs-google-analytics";
+// import { event } from "nextjs-google-analytics";
 import { socialMediaLinks } from "@/data";
-import { openFile, scrollTo } from "@/helpers";
+import { scrollTo } from "@/helpers";
 import { AiOutlineArrowDown } from "react-icons/ai";
 
 export default function Hero() {
-  const handleViewResume = () => {
-    event("click", {
-      category: "click",
-      label: "User click the view resume button",
-    });
+  // const handleViewResume = () => {
+  //   event("click", {
+  //     category: "click",
+  //     label: "User click the view resume button",
+  //   });
 
-    openFile("/files/aytacmalkoc-cv.pdf");
-  };
+  //   openFile("/files/aytacmalkoc-cv.pdf");
+  // };
 
   return (
     <div className="vea-banner vea-banner-2">
@@ -49,12 +49,12 @@ export default function Hero() {
                     />
                   </a>
                 ))}
-                <button
+                {/* <button
                   onClick={handleViewResume}
                   className="social-link btn btn-outline-dark mt-lg-0 mt-3"
                 >
                   Download Europass CV
-                </button>
+                </button> */}
               </div>
             </div>
           </div>
