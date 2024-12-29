@@ -32,7 +32,7 @@ export const socialMediaLinks = [
     id: 4,
     label: "Instagram",
     icon: AiOutlineInstagram,
-    url: "https://www.instagram.com/aytac.dev",
+    url: "https://www.instagram.com/himaytacmalkoc",
   },
   {
     id: 5,
