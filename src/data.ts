@@ -48,7 +48,7 @@ export const experiences: ExperienceType[] = [
     title: "Full Stack Developer",
     slug: "attelia-oral-and-dental-health-center",
     company: "Attelia",
-    duration: "March 2023 - Present",
+    duration: "March 2023 - December 2024",
     description:
       "I take part in the development and maintenance of company websites and applications and the development of new projects.",
     logo: "https://atteliadental.com/uploads/files/shares/content/att-logo.svg",
