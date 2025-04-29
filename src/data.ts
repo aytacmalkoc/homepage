@@ -51,10 +51,10 @@ export const experiences: ExperienceType[] = [
     duration: "February 2025 - Present",
     description:
       "I take part in the development of CRM & Admin modules in the otelfiyat.com project of Ideal Tur, a company serving in the tourism sector.",
-    logo: "https://www.otelfiyat.com/img/otelfiyat-buyuk-logo.png",
+    logo: "http://otelfiyat.com.tr/assets/images/logo-mobile.svg",
     color: {
       background: "#5D3EBD",
-      text: "#ffffff",
+      text: "#FAA227",
     },
     languages: [
       {
