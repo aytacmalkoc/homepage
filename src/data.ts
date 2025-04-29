@@ -45,6 +45,34 @@ export const socialMediaLinks = [
 export const experiences: ExperienceType[] = [
   {
     id: 1,
+    title: "Backend Developer",
+    slug: "idealtur-otelfiyat",
+    company: "Ideal Tur (otelfiyat.com)",
+    duration: "February 2025 - Present",
+    description:
+      "I take part in the development of CRM & Admin modules in the otelfiyat.com project of Ideal Tur, a company serving in the tourism sector.",
+    logo: "https://www.otelfiyat.com/img/otelfiyat-buyuk-logo.png",
+    color: {
+      background: "#5D3EBD",
+      text: "#ffffff",
+    },
+    languages: [
+      {
+        id: 1,
+        name: "PHP",
+      },
+      {
+        id: 2,
+        name: "Laravel",
+      },
+      {
+        id: 3,
+        name: "MySQL",
+      }
+    ],
+  },
+  {
+    id: 2,
     title: "Full Stack Developer",
     slug: "attelia-oral-and-dental-health-center",
     company: "Attelia",
@@ -88,7 +116,7 @@ export const experiences: ExperienceType[] = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: "Full Stack Developer",
     slug: "upperearth-digital-full-stack-developer",
     company: "upperearth digital",
@@ -131,7 +159,7 @@ export const experiences: ExperienceType[] = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "Developer Intern",
     slug: "fikir-isler-developer-intern",
     company: "Fikir İşler",
